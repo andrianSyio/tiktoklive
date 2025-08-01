@@ -1,4 +1,8 @@
-import soalData from '../../data/soal.json';
+import fs from 'fs';
+import path from 'path';
+
+const soalPath = path.resolve('./data/soal.json');
+const soalData = JSON.parse(fs.readFileSync(soalPath, 'utf-8'));
 
 let leaderboard = {};
 let currentSoal = soalData[Math.floor(Math.random() * soalData.length)];
@@ -16,7 +20,6 @@ export default function handler(req, res) {
     return res.status(200).json({ status: isBenar ? 'benar' : 'salah', leaderboard });
   }
 
-  // ✅ Penting untuk fetch soal dari HTML
   if (req.method === 'GET') {
     return res.status(200).json({ soal: currentSoal.soal, leaderboard });
   }
