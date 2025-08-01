@@ -1,0 +1,42 @@
+[
+  {
+    "soal": "Sebutkan hewan peliharaan!",
+    "jawaban": ["kucing", "anjing", "kelinci", "burung", "ikan", "hamster"]
+  },
+  {
+    "soal": "Sebutkan benda yang ada di kamar mandi!",
+    "jawaban": ["sabun", "shampoo", "gayung", "sikat gigi", "odol", "ember"]
+  },
+  {
+    "soal": "Sebutkan buah yang berwarna merah!",
+    "jawaban": ["apel", "semangka", "stroberi", "ceri", "delima", "jambu"]
+  },
+  {
+    "soal": "Sebutkan kendaraan di jalan raya!",
+    "jawaban": ["mobil", "motor", "bus", "truk", "sepeda", "angkot"]
+  },
+  {
+    "soal": "Sebutkan profesi di rumah sakit!",
+    "jawaban": ["dokter", "perawat", "apoteker", "resepsionis", "satpam", "petugas kebersihan"]
+  },
+  {
+    "soal": "Sebutkan minuman di warung!",
+    "jawaban": ["teh", "kopi", "es jeruk", "air mineral", "susu", "softdrink"]
+  },
+  {
+    "soal": "Sebutkan bagian tubuh manusia!",
+    "jawaban": ["mata", "telinga", "hidung", "mulut", "tangan", "kaki"]
+  },
+  {
+    "soal": "Sebutkan makanan khas Indonesia!",
+    "jawaban": ["rendang", "sate", "nasi goreng", "gudeg", "rawon", "pempek"]
+  },
+  {
+    "soal": "Sebutkan warna pelangi!",
+    "jawaban": ["merah", "jingga", "kuning", "hijau", "biru", "ungu"]
+  },
+  {
+    "soal": "Sebutkan nama-nama planet!",
+    "jawaban": ["merkurius", "venus", "bumi", "mars", "jupiter", "saturnus"]
+  }
+]
